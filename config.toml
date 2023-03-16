@@ -1,0 +1,56 @@
+baseURL = 'https://siggijons.net/'
+languageCode = 'en-us'
+title = 'Siggi Jonsson | Blog'
+theme = 'hugo-blog-awesome'
+
+enableEmoji = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]] 
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[params]
+  sitename = "Siggi Jonsson"
+  defaultColor = "dark" # set default color mode: dark or light
+  description = "Blog posts and more."
+
+[params.author]
+  avatar = "img/avatar.jpg"
+  intro = "Siggi Jonsson"
+  name = "Siggi Jonsson"
+  description = "Hi! I'm a mobile software engineer from Iceland living in Los Angeles. This is my blog."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/siggijons"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/siggijons"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/siggijons/"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "../index.xml"
