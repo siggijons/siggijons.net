@@ -39,7 +39,7 @@ googleAnalytics = 'G-KBHB0XTPGG'
   avatar = "img/avatar.jpg"
   intro = "Siggi Jonsson"
   name = "Siggi Jonsson"
-  description = "Hi! I'm a mobile software engineer from Iceland living in Los Angeles. This is my blog."
+  description = "Hello! I'm a software engineer from Iceland living in Los Angeles. I make apps for a living and this is my blog."
 
 [[params.socialIcons]]
 name = "github"
