@@ -5,6 +5,8 @@ theme = 'hugo-blog-awesome'
 
 enableEmoji = true
 
+googleAnalytics = 'G-KBHB0XTPGG'
+
 [markup]
   [markup.highlight]
     noClasses = false
